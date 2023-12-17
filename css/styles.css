@@ -26,15 +26,7 @@ ul {
 }
 
 /* HEDER */
-::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
+
 .header {
   border-bottom: 1px solid #e7e9fc; /* Стиль линии в низу элемента */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -85,11 +77,19 @@ ul {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative; /*для элемента, это создает контекст позиционирования для этого элемента. Это означает, что все дочерние элементы этого элемента могут быть позиционированы относительно него, а не относительно всего документа.*/
-  color: #404bbf;
+  color: #2e2f42;
 }
-.header-link:active {
-  border-bottom: solid;
+.header-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
