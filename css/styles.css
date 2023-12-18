@@ -498,10 +498,13 @@ footer {
 .icon-btn-popup {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.popup-body .icon-btn-popup:hover,
-.popup-body .icon-btn-popup:focus {
-  /* filter: brightness(0) invert(1); */
+.popup-body .icon-btn-popup:hover {
   fill: #ffffff;
+}
+.popup-body .icon-btn-popup:focus {
+  fill: #ffffff;    
+  /* filter: brightness(0) invert(1); */
+  
 }
 
 .text-popup {
