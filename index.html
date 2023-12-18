@@ -467,16 +467,22 @@
         </div>
         <div class="form-container">
           <p class="text-subs">Subscribe</p>
-          <form class="my-form" action="">
+          <form class="my-form" action="/submit">
             <!-- Внутри тега <form> обычно содержатся элементы ввода, такие как текстовые поля, кнопки, флажки и др. Эти элементы позволяют пользователям вводить данные, которые могут быть отправлены на сервер для обработки. -->
-            <label class="email-label" for="">
-              <input class="email-input" type="email" placeholder="E-mail" style="color:#fff;" />
+            <label class="email-label" for="email">
+              <input
+                class="email-input"
+                type="email"
+                name="your-email"
+                placeholder="E-mail"
+                style="color: #fff" />
               <!-- Тег <input> використовується для створення різних типів полів введення, таких як текстові поля, пароль, чекбокси, радіокнопки і інші. -->
             </label>
-            <button class="btn-foot" type="submit">Subscribe
-            <svg class="icon-btn" width="24" height="24">
-             <use href="./images/icons.svg#icon-send"></use>
-            </svg>
+            <button class="btn-foot" type="submit">
+              Subscribe
+              <svg class="icon-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>
