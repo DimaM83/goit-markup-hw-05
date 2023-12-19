@@ -524,7 +524,7 @@ footer {
   margin-bottom: 4px;
 }
 .name-form {
-  position: relative;
+  position: relative; /*  для встановлення позиціонування елемента відносно його звичайного місця в потоці документу */
 }
 
 #user-name {
