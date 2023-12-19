@@ -512,10 +512,10 @@ footer {
   margin-bottom: 16px;
 }
 
-.personal-data {
+.personal-container {
   margin-bottom: 8px;
 }
-.personal-name {
+.personal-data {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
