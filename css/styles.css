@@ -596,7 +596,7 @@ footer {
 }
 
 /* Стилі для стану checked */
-.visually-hidden:checked + .accept-terms {
+.visually-hidden:checked + .label-custom .accept-terms {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
