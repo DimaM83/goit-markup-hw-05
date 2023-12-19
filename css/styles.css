@@ -572,3 +572,6 @@ footer {
 .user-comment:focus {
    border-color: #4D5AE5;
 }
+.container-check-box {
+  margin-bottom: 24px;
+}
