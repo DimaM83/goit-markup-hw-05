@@ -470,7 +470,6 @@ footer {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
-  margin-bottom: 8px;
 }
 .btn-popup {
   position: absolute;
@@ -514,3 +513,6 @@ footer {
   margin-bottom: 16px;
 }
 
+.personal-data {
+  margin-bottom: 8px;
+}
