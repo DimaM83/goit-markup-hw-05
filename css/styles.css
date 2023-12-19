@@ -554,7 +554,7 @@ footer {
 .container-comment {
   margin-bottom: 16px;
 }
-#user-comment {
+.user-comment {
   width: 100%; /* встановлює ширину елемента, яка займає повну ширину його батьківського елемента */
   height: 120px;
   font-size: 12px;
@@ -569,6 +569,6 @@ footer {
   resize: none; /* для заборони зміни розміру елемента */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
 }
-#user-comment:focus {
+.user-comment:focus {
    border-color: #4D5AE5;
 }
