@@ -503,6 +503,7 @@ footer {
   fill: #ffffff;
 }
 
+
 .text-popup {
   font-weight: 500;
   font-size: 16px;
@@ -511,4 +512,9 @@ footer {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+}
+
+
+.personal-data {
+  margin-bottom: 8px;
 }
