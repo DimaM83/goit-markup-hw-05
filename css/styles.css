@@ -572,9 +572,13 @@ footer {
 .user-comment:focus {
   border-color: #4d5ae5;
 }
+
+
 .container-check-box {
   margin-bottom: 24px;
 }
+
+
 .label-custom {
   font-size: 12px;
   line-height: 1.17;
@@ -594,4 +598,3 @@ footer {
   justify-content: center;
   fill: transparent;
 }
-  
